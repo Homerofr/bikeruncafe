@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BikeRunCafé - Sua Energia Diária</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {margin: 0; padding: 0; box-sizing: border-box;}
+    body {font-family: 'Montserrat', sans-serif; color: #2f2f2f; background: #fff; line-height: 1.6;}
+    header {
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url('https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 120px 20px;
+    }
+    header h1 {font-size: 3rem; margin-bottom: 10px;}
+    header p {font-size: 1.3rem; margin-bottom: 25px;}
+    .btn {
+      background: #b63d1e;
+      color: white;
+      padding: 15px 40px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 30px;
+      transition: background 0.3s ease;
+    }
+    .btn:hover {
+      background: #8e2c14;
+    }
+    .section {
+      padding: 70px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .section h2 {
+      font-size: 2rem;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .benefits {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+    .benefit-box {
+      background: #fefefe;
+      padding: 30px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      transition: transform 0.3s ease;
+    }
+    .benefit-box:hover {
+      transform: translateY(-5px);
+    }
+    .product-image {
+      width: 100%;
+      max-width: 600px;
+      border-radius: 12px;
+      margin: 30px auto;
+      display: block;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+    }
+    .product-description {
+      font-size: 1.1rem;
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+      padding: 20px;
+    }
+    #comprar {
+      background: #f5f5f5;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    #comprar .btn {
+      font-size: 1.1rem;
+      margin-top: 20px;
+    }
+    .footer {
+      background: #1a1a1a;
+      color: #aaa;
+      text-align: center;
+      padding: 40px 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>BikeRunCafé: Sua Energia Diária</h1>
+    <p>Café gourmet 100% Arábica com Canela direto da Serra da Mantiqueira</p>
+    <a href="#comprar" class="btn">Quero o Meu Agora</a>
+  </header>
+
+  <section class="section">
+    <h2>Benefícios do BikeRunCafé</h2>
+    <div class="benefits">
+      <div class="benefit-box">
+        <h3>☕ Energia Sustentável</h3>
+        <p>Mais disposição para seus treinos e sua rotina com cafeína natural.</p>
+      </div>
+      <div class="benefit-box">
+        <h3>🔥 Metabolismo Ativo</h3>
+        <p>Canela acelera o metabolismo e ajuda na queima de gordura.</p>
+      </div>
+      <div class="benefit-box">
+        <h3>🛡️ Recuperação e Foco</h3>
+        <p>Antioxidantes e propriedades anti-inflamatórias para uma recuperação otimizada.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Nosso Produto</h2>
+    <img src="https://chat.openai.com/mnt/data/WhatsApp%20Image%202025-06-16%20at%2010.59.46%20(3).jpeg" alt="BikeRunCafé Produto" class="product-image">
+    <p class="product-description">
+      O BikeRunCafé é a união perfeita entre performance e prazer. Grãos selecionados, cultivados na Serra da Mantiqueira, com 80 pontos de qualidade e um toque especial de canela. Ideal para quem vive o movimento e valoriza o sabor.
+    </p>
+  </section>
+
+  <section class="section" id="comprar">
+    <h2>Adquira o Seu Agora</h2>
+    <p>Café Tradicional com Canela - 250g</p>
+    <a class="btn" href="#">Comprar Agora</a>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 BikeRunCafé - Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
